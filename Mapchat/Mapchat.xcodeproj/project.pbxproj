@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6F28B4D71A7020770003265F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F28B4D61A7020770003265F /* AppDelegate.swift */; };
+		6F28B4D91A7020770003265F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F28B4D81A7020770003265F /* ViewController.swift */; };
+		6F28B4DC1A7020780003265F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F28B4DA1A7020780003265F /* Main.storyboard */; };
+		6F28B4DE1A7020780003265F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F28B4DD1A7020780003265F /* Images.xcassets */; };
+		6F28B4E11A7020780003265F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F28B4DF1A7020780003265F /* LaunchScreen.xib */; };
+		6F28B4ED1A7020780003265F /* MapchatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F28B4EC1A7020780003265F /* MapchatTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6F28B4E71A7020780003265F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F28B4C91A7020770003265F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F28B4D01A7020770003265F;
+			remoteInfo = Mapchat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6F28B4D11A7020770003265F /* Mapchat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mapchat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F28B4D51A7020770003265F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F28B4D61A7020770003265F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6F28B4D81A7020770003265F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6F28B4DB1A7020780003265F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6F28B4DD1A7020780003265F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6F28B4E01A7020780003265F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		6F28B4E61A7020780003265F /* MapchatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapchatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F28B4EB1A7020780003265F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F28B4EC1A7020780003265F /* MapchatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapchatTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6F28B4CE1A7020770003265F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F28B4E31A7020780003265F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6F28B4C81A7020770003265F = {
+			isa = PBXGroup;
+			children = (
+				6F28B4D31A7020770003265F /* Mapchat */,
+				6F28B4E91A7020780003265F /* MapchatTests */,
+				6F28B4D21A7020770003265F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6F28B4D21A7020770003265F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6F28B4D11A7020770003265F /* Mapchat.app */,
+				6F28B4E61A7020780003265F /* MapchatTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6F28B4D31A7020770003265F /* Mapchat */ = {
+			isa = PBXGroup;
+			children = (
+				6F28B4D61A7020770003265F /* AppDelegate.swift */,
+				6F28B4D81A7020770003265F /* ViewController.swift */,
+				6F28B4DA1A7020780003265F /* Main.storyboard */,
+				6F28B4DD1A7020780003265F /* Images.xcassets */,
+				6F28B4DF1A7020780003265F /* LaunchScreen.xib */,
+				6F28B4D41A7020770003265F /* Supporting Files */,
+			);
+			path = Mapchat;
+			sourceTree = "<group>";
+		};
+		6F28B4D41A7020770003265F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6F28B4D51A7020770003265F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6F28B4E91A7020780003265F /* MapchatTests */ = {
+			isa = PBXGroup;
+			children = (
+				6F28B4EC1A7020780003265F /* MapchatTests.swift */,
+				6F28B4EA1A7020780003265F /* Supporting Files */,
+			);
+			path = MapchatTests;
+			sourceTree = "<group>";
+		};
+		6F28B4EA1A7020780003265F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6F28B4EB1A7020780003265F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6F28B4D01A7020770003265F /* Mapchat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F28B4F01A7020780003265F /* Build configuration list for PBXNativeTarget "Mapchat" */;
+			buildPhases = (
+				6F28B4CD1A7020770003265F /* Sources */,
+				6F28B4CE1A7020770003265F /* Frameworks */,
+				6F28B4CF1A7020770003265F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mapchat;
+			productName = Mapchat;
+			productReference = 6F28B4D11A7020770003265F /* Mapchat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6F28B4E51A7020780003265F /* MapchatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F28B4F31A7020780003265F /* Build configuration list for PBXNativeTarget "MapchatTests" */;
+			buildPhases = (
+				6F28B4E21A7020780003265F /* Sources */,
+				6F28B4E31A7020780003265F /* Frameworks */,
+				6F28B4E41A7020780003265F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6F28B4E81A7020780003265F /* PBXTargetDependency */,
+			);
+			name = MapchatTests;
+			productName = MapchatTests;
+			productReference = 6F28B4E61A7020780003265F /* MapchatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6F28B4C91A7020770003265F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Katherine Habeck";
+				TargetAttributes = {
+					6F28B4D01A7020770003265F = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					6F28B4E51A7020780003265F = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 6F28B4D01A7020770003265F;
+					};
+				};
+			};
+			buildConfigurationList = 6F28B4CC1A7020770003265F /* Build configuration list for PBXProject "Mapchat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6F28B4C81A7020770003265F;
+			productRefGroup = 6F28B4D21A7020770003265F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6F28B4D01A7020770003265F /* Mapchat */,
+				6F28B4E51A7020780003265F /* MapchatTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6F28B4CF1A7020770003265F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F28B4DC1A7020780003265F /* Main.storyboard in Resources */,
+				6F28B4E11A7020780003265F /* LaunchScreen.xib in Resources */,
+				6F28B4DE1A7020780003265F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F28B4E41A7020780003265F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6F28B4CD1A7020770003265F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F28B4D91A7020770003265F /* ViewController.swift in Sources */,
+				6F28B4D71A7020770003265F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F28B4E21A7020780003265F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F28B4ED1A7020780003265F /* MapchatTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6F28B4E81A7020780003265F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6F28B4D01A7020770003265F /* Mapchat */;
+			targetProxy = 6F28B4E71A7020780003265F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6F28B4DA1A7020780003265F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F28B4DB1A7020780003265F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6F28B4DF1A7020780003265F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F28B4E01A7020780003265F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6F28B4EE1A7020780003265F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6F28B4EF1A7020780003265F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6F28B4F11A7020780003265F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Mapchat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6F28B4F21A7020780003265F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Mapchat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6F28B4F41A7020780003265F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MapchatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mapchat.app/Mapchat";
+			};
+			name = Debug;
+		};
+		6F28B4F51A7020780003265F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MapchatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mapchat.app/Mapchat";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6F28B4CC1A7020770003265F /* Build configuration list for PBXProject "Mapchat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F28B4EE1A7020780003265F /* Debug */,
+				6F28B4EF1A7020780003265F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F28B4F01A7020780003265F /* Build configuration list for PBXNativeTarget "Mapchat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F28B4F11A7020780003265F /* Debug */,
+				6F28B4F21A7020780003265F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6F28B4F31A7020780003265F /* Build configuration list for PBXNativeTarget "MapchatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F28B4F41A7020780003265F /* Debug */,
+				6F28B4F51A7020780003265F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6F28B4C91A7020770003265F /* Project object */;
+}
